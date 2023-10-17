@@ -14,7 +14,7 @@ app.get('/',(req, res)=>{
 request(url, function (error, response, body) {
     if(response.statusCode === 200){
         let data = JSON.parse(body);
-        res.send(`The weather in your City  ${city} is ${data.list[0].weather[0].description}`);
+        res.send(`The weather your City  ${city} is ${data.list[0].weather[0].description}`);
     }
 });
 });
