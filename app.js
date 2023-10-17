@@ -2,7 +2,7 @@ const express = require('express');
 const request = require('request');
 const bodyParser = require('body-parser');
 const app = express();
-var url = 'https://samples.openweathermap.org/data/2.5/forecast?q=${city}';
+var url = 'https://samples.openweathermap.org/data/2.5/forecast?q=}';
 var appid = 'appid=47f2a111133960a747e1562330e688f7'
 
 
